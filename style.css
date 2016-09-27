@@ -1,0 +1,268 @@
+body {
+  font: 24px/45px "Freestyle Script","Helvetica", "Sans-Serif";
+  letter-spacing:1px;
+  font-size: 30px;
+  color: black;
+  background-color:#ffffff;
+  
+}
+
+.small {
+	
+	font-size: 10px; 
+	
+}
+
+
+
+
+
+
+.follow {}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #eeeeee;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color:black;
+    text-align: center;
+    padding: 10px 16px;
+    text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+    background-color: #111;
+}
+
+.active {
+    background-color: #ff9933;
+}
+
+
+
+
+.form-field,
+ label {
+ float: left;
+ width: 10em;
+ margin-right: 1em;
+ text-align: right;
+ }
+ 
+ right-aligned-labels{
+ float: left;
+ width: 10em;
+ margin-right: 1em;
+ text-align: right;
+ }
+ 
+ 
+
+  #HCB_comment_box #hcb_form_content,
+  #HCB_comment_box #hcb_form_email, 
+  #HCB_comment_box #hcb_form_name, 
+  #HCB_comment_box #hcb_form_website {
+    background-color: rgb(255,255,255);
+  }
+
+#HCB_comment_box blockquote {
+   color: white; 
+   font:  Helvetica, Sans-Serif; 
+   letter-spacing: 1px;  
+   padding: 10px;
+}
+
+ input #hcb_form_name {
+    
+    color:black;
+    font-size:18px;
+    font-family: Helvectica;
+    background-color:darkgreen;
+  }
+
+/*body {
+    
+    background-image: url("pics/stripe_7bb4ff51311f1ab4a66ab59bbbafffcf.png");
+    background-attachment:scroll;
+    background-position:top  center; 
+    
+    
+}*/
+/*background {
+  
+  background-image: url("stripe_f06795d970fc4737a1f8d6831c94e9b6%20(1).png");
+  background-attachment:scroll;
+  float: right;
+  background-position : 400px;
+  
+}*/
+.titleH {
+  
+  font-size: 300px;
+  text-align: center;
+   
+   
+}
+
+.titleS{
+  
+  font-size: 50px;
+  
+}
+
+.sideN{
+  
+  color:black;
+  font-size: 15px;
+  font: bold Simplon ,Helvetica, Sans-Serif; 
+  
+}
+
+#HCB_comment_box .submit {
+    background:rgb(255,255,255); /* Clear twitter bootstrap style. */
+    background-color:green;
+    border:1px solid darkgreen;
+    color: white;
+  }
+
+
+
+#share-buttons img {
+
+  width: 35px;
+
+  padding: 5px;
+
+  border: 0;
+
+  box-shadow: 0;
+
+  display: inline;
+
+}
+
+.button {
+   border: 0px solid #0a3c59;
+   background: #ffffff;
+   color: #ffffff;
+   font-size: 30px;
+   font-family: helvetica, serif;
+   text-decoration: none;
+   vertical-align: middle;
+   }
+ .button:hover {
+   border: 0px solid #0a3c59;
+   background: #cccccc;
+   }
+ .button:active {
+   background: #666666;
+   }
+  
+.form-container {
+   border: 1px solid #000000;
+   background: #bd7b2f;
+   background: -webkit-gradient(linear, left top, left bottom, from(#ff8400), to(#bd7b2f));
+   background: -webkit-linear-gradient(top, #ff8400, #bd7b2f);
+   background: -moz-linear-gradient(top, #ff8400, #bd7b2f);
+   background: -ms-linear-gradient(top, #ff8400, #bd7b2f);
+   background: -o-linear-gradient(top, #ff8400, #bd7b2f);
+   background-image: -ms-linear-gradient(top, #ff8400 0%, #bd7b2f 100%);
+   -webkit-border-radius: 30px;
+   -moz-border-radius: 30px;
+   border-radius: 30px;
+   -webkit-box-shadow: rgba(000,000,000,0.9) 0 1px 2px, inset rgba(255,255,255,0.4) 0 0px 0;
+   -moz-box-shadow: rgba(000,000,000,0.9) 0 1px 2px, inset rgba(255,255,255,0.4) 0 0px 0;
+   box-shadow: rgba(000,000,000,0.9) 0 1px 2px, inset rgba(255,255,255,0.4) 0 0px 0;
+   font-family: "Simplon","Monoglyceride","Fluorine", "Bauhaus 93";
+   text-decoration: none;
+   vertical-align: middle;
+   min-width:300px;
+   padding:20px;
+   width:300px;
+   }
+ .form-field {
+   border: 1px solid #000000;
+   background: #ffffff;
+   -webkit-border-radius: 12px;
+   -moz-border-radius: 12px;
+   border-radius: 12px;
+   color: #002fff;
+   -webkit-box-shadow: rgba(255,255,255,0.4) 0 1px 0, inset rgba(000,000,000,0.7) 0 0px 0px;
+   -moz-box-shadow: rgba(255,255,255,0.4) 0 1px 0, inset rgba(000,000,000,0.7) 0 0px 0px;
+   box-shadow: rgba(255,255,255,0.4) 0 1px 0, inset rgba(000,000,000,0.7) 0 0px 0px;
+   padding:8px;
+   margin-bottom:20px;
+   width:280px;
+   }
+ .form-field:focus {
+   background: #7bc7b9;
+   color: #5500ff;
+   }
+ .form-container h2 {
+   text-shadow: #00e6ff 0 1px 0;
+   font-size:18px
+   margin: 0 0 10px 0;
+   font-weight:bold;
+   text-align:center;
+    }
+ .form-title {
+   margin-bottom:10px;
+   color: #1100ff;
+   text-shadow: #00e6ff 0 1px 0;
+   }
+ .submit-container {
+   margin:8px 0;
+   text-align:right;
+   }
+ .submit-button {
+   background: #ffffff;
+   color: #ffffff;
+   font-size: 30px;
+   font-family: helvetica, serif;
+   text-decoration: none;
+   vertical-align: middle;
+   }
+ .submit-button:hover {
+   border: 0px solid #0a3c59;
+   background: #cccccc;
+   }
+ .submit-button:active {
+    background: #666666;
+   }
+
+  
+  ::-webkit-scrollbar {
+      width: 15px;
+      overflow: scroll; /* showing scrollbars */
+} /* this targets the default scrollbar (compulsory) */
+  
+  ::-webkit-scrollbar-track {
+      background-color: #fffeee;
+} /* the new scrollbar will have a flat appearance with the set background color */
+ 
+::-webkit-scrollbar-thumb {
+      background-color: #ff9933; 
+} /* this will style the thumb, ignoring the track */
+ 
+::-webkit-scrollbar-button {
+      background-color: #dddddd;
+} /* optionally, you can style the top and the bottom buttons (left and right for horizontal bars) */
+ 
+::-webkit-scrollbar-corner {
+      background-color: black;
+} /* if both the vertical and the horizontal bars appear, then perhaps the right bottom corner also*/
+
+
+  
+                                                                 
